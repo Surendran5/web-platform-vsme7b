@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Function</title>
+  </head>
+  <body>
+    <h1>JavaScript Function</h1>
+    <script>
+      // addition
+      function sum(input1 = 0, input2 = 0) {
+        return input1 + input2;
+      }
+      let r2 = sum(2, 4);
+      if (isNaN(r2)) r2 = 0;
+      console.log(r2);
+      //multiplication
+      function multiple(input1 = 0, input2 = 0) {
+        return input1 * input2;
+      }
+      let r3 = multiple(3, 3);
+      if (isNaN(r3)) r3 = 0;
+      console.log(r3);
+      // subtraction
+      function sub(input1 = 0, input2 = 0) {
+        return input1 - input2;
+      }
+      let r4 = sub(3, 2);
+      if (isNaN(r4)) r4 = 0;
+      console.log(r4);
+      // division
+      function division(i1 = 0, i2 = 0) {
+        return i1 / i2;
+      }
+
+      let r1 = division(2, "hi");
+      let r5 = division(2, 4);
+      if (isNaN(r1)) r1 = 0;
+      console.log(r1);
+      if (isNaN(r5)) r5 = 0;
+      console.log(r5);
+    </script>
+  </body>
+</html>
